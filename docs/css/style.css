@@ -1,0 +1,301 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style-type:none;
+text-decoration: none;
+}
+#raise-up{
+    background-color: #b3b3b3;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#raise-up a{
+    color: white;
+    font-size: 30px;
+}
+body{
+    font-family: 'roboto',sans-serif;
+}
+#navbar{
+    padding-top: 20px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+.navbar-logo{
+    width: 40%;
+    float: left;
+}
+.navbar-logo img{
+    width: 35%;
+}
+.menu{
+    float: right;
+    width: 50%;
+    margin-top: 15px;
+    padding-left: 60px ;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    color: white;
+    padding:10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#header{
+    height: 100vh;
+    background-image: url(../Images/Bakery.jpg);
+    background-position: center;
+    background-size:cover;
+    padding-top: 170px;
+}
+.header-content{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    width:50%;
+}
+.header-content #content{
+    color: white;
+    font-size: 22px;
+    line-height: 40.92px;
+    margin: 0 0 5px;
+    font-weight: 400;
+    /* font-family: ; */
+}
+.header-content h1{
+    font-size: 76px;
+    line-height: 91px;
+    margin: 0 0 18px;
+    font-weight: 400;
+}
+button{
+    padding: 20px 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.header-colored-btn{
+    background-color:#8e7754 ;
+    border: 0;
+}
+#about{
+    padding: 5%;
+}
+.image-edit{
+    width: 45%;
+    float: left;
+    padding-top: 30px;
+}
+img{
+    width:100% ;
+}
+.word{
+    width: 50%;
+    float: right;
+    padding-block: 5%;
+}
+h2{
+    color: #303030;
+    font-size: 40px;
+    font-weight:400 ;
+    line-height: 44.16px;
+    padding-block: 5%;
+}
+p{
+    width: 90%;
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.list li{
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+    padding-block: 10px;
+}
+#location{
+    padding: 5%;
+    background-color: #F8F8F8;
+}
+.image2{
+    width: 50%;
+    float: right;
+    padding-block: 70px;
+    padding-left: 50px;
+}
+.loc{
+    padding-block: 5%;
+}
+.our-location{
+    color: #303030;
+    font-size: 32px;
+    font-weight:400 ;
+    line-height: 40px;
+}
+#par1{
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+#par2{
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+#ourbaking{
+    margin-top: 50px;
+}
+.section4{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.head3{
+    color: #303030;
+    font-size: 30px;
+    line-height: 41.4px;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+.line{
+    color: #888888;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+    padding-left: 130px;
+}
+.photos{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.triple{
+    width: 90%;
+}
+.icon{
+    color: #303030;
+    font-size: 25px;
+    line-height: 30.36px;
+    font-weight: 400;
+    padding: 15px;
+}
+.icon-contact{
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+    text-align: center;
+}
+.clear-fix{
+    clear: both;
+}
+.contact-information{
+    background-color: #F8F8F8;
+    padding-top: 10%;
+}
+.iframe{
+    width: 50%;
+    height:100vh;
+    float: right;
+    padding-block: 80px;
+}
+.move-contact{
+    padding-left: 3%;
+}
+.contact-text{
+    padding-top: 10%;
+    color: #303030;
+    font-size: 32px;
+    line-height: 44.16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#footer{
+    padding-left: 3%;
+    background-color: #403D38;
+    float: left;
+    padding-block: 3% ;
+}
+h4{
+    padding-block: 7% ;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24.84px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.footer-par {
+    color:#969696;
+    font-size: 16px;
+    line-height: 29.76px;
+    font-weight: 400;
+}
+.footer-par li{
+    padding-block: 3%;
+}
+.footer-sections{
+    background-color: #403D38;
+    width: 25%;
+    float: left;
+}
+.footer-par li a{
+    color:#969696;
+}
+hr{
+    width: 80%;
+    opacity: 5%;
+}
+#page-bottom{
+    background-color: #353330;
+}
+.bottom-img{
+    padding-inline: 35%;
+    padding-block: 1%;
+}
+.copy-img{
+    width: 100%;
+    padding-top: 50px;
+}
+.Copyright{
+    color:#777777;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 10%;
+}
+.move-icon{
+    display: flex; 
+    justify-content: center; 
+    gap: 10px;
+    padding-inline: 43%;
+    padding-block:20px;
+}
+.icon-raduis{
+    color:#8C8A86;
+    background-color:#484540;
+    padding: 15px;
+    border-radius: 50%;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
